@@ -627,7 +627,9 @@ padding: 0 15px;
   }
   nav ul li a{
       color: white;
-  
+  }
+  ul li:last-child{
+    border-bottom: none;
   }
   li a .btn{
     display: none;

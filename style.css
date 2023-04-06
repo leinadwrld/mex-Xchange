@@ -742,18 +742,57 @@ padding: 0 15px;
 
 /*---media query for less than 390 screen size---*/
 @media only screen and (max-width: 844px){
-  .row{
-      text-align: center;
+
+ .row{
+    text-align: center;
+  
+  
   }
-  .col-2, .col-3, .col-4{
-      flex-basis: 100%;
- 
+  .col-2, .col-3, .col-22{
+    flex-basis: 100%;
   }
-  .col-2 img{
-      margin-top: 17px;
+  .col-2{
+    margin-top: 30px;
+  }
+  .col-2 h1{
+    text-align: center;
+  }
+  .col-2 p{
+    text-align: center;
+  }
+  .col-2 a{
+    text-align: center;
+  }
+  .col-22 img{
+     text-align: center;
+     margin-top: 50px;
+     margin-left: 150px;
+     max-width: 60%;
+  }
+  .heading{
+    font-size: 32px;
+  }
+  .how-it-works{
+    text-align: center;
+    display: block;
+    margin-top: 80px;
+    font-size: 15px;
+  }
+  .how-it-works span{
+    font-size: 27px;
+    text-align: center;
+  }
+  .how-it-works p .fa{
+    font-size: 40px;
+    text-align: center;
+    padding: 20px;
+  }
+  .heading::after{
+    width: 100px;
+    height: 3px;
+    margin-top: 60px;
   }
 }
-
 
 
 
@@ -824,38 +863,111 @@ padding: 0 15px;
 
 /*---media query for less than 360 screen size---*/
 @media only screen and (max-width: 360px){
-  .row{
-      text-align: center;
+   .row{
+    text-align: center;
+  
+  
   }
-  .col-2, .col-3, .col-4{
-      flex-basis: 100%;
- 
+  .col-2, .col-3, .col-22{
+    flex-basis: 100%;
   }
-  .col-2 img{
-      margin-top: 50px;
+  .col-2{
+    margin-top: 30px;
   }
   .col-2 h1{
-      margin-top: 4px;
+    text-align: center;
+  }
+  .col-2 p{
+    text-align: center;
+  }
+  .col-2 a{
+    text-align: center;
+  }
+  .col-22 img{
+     text-align: center;
+     margin-top: 50px;
+     margin-left: 150px;
+     max-width: 60%;
+  }
+  .heading{
+    font-size: 32px;
+  }
+  .how-it-works{
+    text-align: center;
+    display: block;
+    margin-top: 80px;
+    font-size: 15px;
+  }
+  .how-it-works span{
+    font-size: 27px;
+    text-align: center;
+  }
+  .how-it-works p .fa{
+    font-size: 40px;
+    text-align: center;
+    padding: 20px;
+  }
+  .heading::after{
+    width: 100px;
+    height: 3px;
+    margin-top: 60px;
   }
 }
 
 
 
 
+
 /*---media query for less than 393 screen size---*/
 @media only screen and (max-width: 393px){
-  .row{
-      text-align: center;
+ .row{
+    text-align: center;
+  
+  
   }
-  .col-2, .col-3, .col-4{
-      flex-basis: 100%;
- 
+  .col-2, .col-3, .col-22{
+    flex-basis: 100%;
   }
-  .col-2 img{
-      margin-top: 40px;
+  .col-2{
+    margin-top: 30px;
   }
   .col-2 h1{
-      margin-top: 25px;
+    text-align: center;
+  }
+  .col-2 p{
+    text-align: center;
+  }
+  .col-2 a{
+    text-align: center;
+  }
+  .col-22 img{
+     text-align: center;
+     margin-top: 50px;
+     margin-left: 150px;
+     max-width: 60%;
+  }
+  .heading{
+    font-size: 32px;
+  }
+  .how-it-works{
+    text-align: center;
+    display: block;
+    margin-top: 80px;
+    font-size: 15px;
+  }
+  .how-it-works span{
+    font-size: 27px;
+    text-align: center;
+  }
+  .how-it-works p .fa{
+    font-size: 40px;
+    text-align: center;
+    padding: 20px;
+  }
+  .heading::after{
+    width: 100px;
+    height: 3px;
+    margin-top: 60px;
   }
 }
 
@@ -866,49 +978,162 @@ padding: 0 15px;
 
 /*---media query for less than 414 screen size---*/
 @media only screen and (max-width: 414px){
-  .row{
-      text-align: center;
+   .row{
+    text-align: center;
+  
+  
   }
-  .col-2, .col-3, .col-4{
-      flex-basis: 100%;
- 
+  .col-2, .col-3, .col-22{
+    flex-basis: 100%;
   }
-  .col-2 img{
-      margin-top: 14px;
-      margin-left: 30px;
-      
+  .col-2{
+    margin-top: 30px;
+  }
+  .col-2 h1{
+    text-align: center;
+  }
+  .col-2 p{
+    text-align: center;
+  }
+  .col-2 a{
+    text-align: center;
+  }
+  .col-22 img{
+     text-align: center;
+     margin-top: 50px;
+     margin-left: 150px;
+     max-width: 60%;
+  }
+  .heading{
+    font-size: 32px;
+  }
+  .how-it-works{
+    text-align: center;
+    display: block;
+    margin-top: 80px;
+    font-size: 15px;
+  }
+  .how-it-works span{
+    font-size: 27px;
+    text-align: center;
+  }
+  .how-it-works p .fa{
+    font-size: 40px;
+    text-align: center;
+    padding: 20px;
+  }
+  .heading::after{
+    width: 100px;
+    height: 3px;
+    margin-top: 60px;
   }
 }
+
 
 /*---media query for less than 420 screen size---*/
 @media only screen and (max-width: 420px){
   .row{
-      text-align: center;
+    text-align: center;
+  
+  
   }
-  .col-2, .col-3, .col-4{
-      flex-basis: 100%;
- 
+  .col-2, .col-3, .col-22{
+    flex-basis: 100%;
   }
-  .col-2 img{
-      margin-top: 40px;
+  .col-2{
+    margin-top: 30px;
   }
-
+  .col-2 h1{
+    text-align: center;
+  }
+  .col-2 p{
+    text-align: center;
+  }
+  .col-2 a{
+    text-align: center;
+  }
+  .col-22 img{
+     text-align: center;
+     margin-top: 50px;
+     margin-left: 150px;
+     max-width: 60%;
+  }
+  .heading{
+    font-size: 32px;
+  }
+  .how-it-works{
+    text-align: center;
+    display: block;
+    margin-top: 80px;
+    font-size: 15px;
+  }
+  .how-it-works span{
+    font-size: 27px;
+    text-align: center;
+  }
+  .how-it-works p .fa{
+    font-size: 40px;
+    text-align: center;
+    padding: 20px;
+  }
+  .heading::after{
+    width: 100px;
+    height: 3px;
+    margin-top: 60px;
+  }
 }
-
 
 /*---media query for less than 430 screen size---*/
 @media only screen and (max-width: 430px){
-  .row{
-      text-align: center;
+   .row{
+    text-align: center;
+  
+  
   }
-  .col-2, .col-3, .col-4{
-      flex-basis: 100%;
- 
+  .col-2, .col-3, .col-22{
+    flex-basis: 100%;
   }
-  .col-2 img{
-      margin-top: 40px;
+  .col-2{
+    margin-top: 30px;
   }
-
+  .col-2 h1{
+    text-align: center;
+  }
+  .col-2 p{
+    text-align: center;
+  }
+  .col-2 a{
+    text-align: center;
+  }
+  .col-22 img{
+     text-align: center;
+     margin-top: 50px;
+     margin-left: 150px;
+     max-width: 60%;
+  }
+  .heading{
+    font-size: 32px;
+  }
+  .how-it-works{
+    text-align: center;
+    display: block;
+    margin-top: 80px;
+    font-size: 15px;
+  }
+  .how-it-works span{
+    font-size: 27px;
+    text-align: center;
+  }
+  .how-it-works p .fa{
+    font-size: 40px;
+    text-align: center;
+    padding: 20px;
+  }
+  .heading::after{
+    width: 100px;
+    height: 3px;
+    margin-top: 60px;
+  }
 }
 
 
@@ -960,6 +1185,60 @@ padding: 0 15px;
   }
 
 }
+
+/*---media query for less than 414 screen size---*/
+@media only screen and (max-width: 900px){
+   .row{
+    text-align: center;
+  
+  
+  }
+  .col-2, .col-3, .col-22{
+    flex-basis: 100%;
+  }
+  .col-2{
+    margin-top: 30px;
+  }
+  .col-2 h1{
+    text-align: center;
+  }
+  .col-2 p{
+    text-align: center;
+  }
+  .col-2 a{
+    text-align: center;
+  }
+  .col-22 img{
+     text-align: center;
+     margin-top: 50px;
+     margin-left: 150px;
+     max-width: 60%;
+  }
+  .heading{
+    font-size: 32px;
+  }
+  .how-it-works{
+    text-align: center;
+    display: block;
+    margin-top: 80px;
+    font-size: 15px;
+  }
+  .how-it-works span{
+    font-size: 27px;
+    text-align: center;
+  }
+  .how-it-works p .fa{
+    font-size: 40px;
+    text-align: center;
+    padding: 20px;
+  }
+  .heading::after{
+    width: 100px;
+    height: 3px;
+    margin-top: 60px;
+  }
+}
+
 
 
 
